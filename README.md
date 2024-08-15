@@ -133,7 +133,9 @@ expand the downloaded ImageMaskDataset and put it under <b>./dataset</b> folder 
 <b>Tiled-Cell Dataset Statistics</b><br>
 <img src ="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Cell/Tiled-Cell-ImageMask-Dataset-BMP-Bare-Neuclei_Statistics.png" width="512" height="auto"><br>
 <br>
-As shown above, the number of images of train and valid datasets is large enough to use for a training set for our segmentation model. 
+As shown above, since the number of images of train and valid datasets is not so large to use for a training set for our segmentation model, 
+we used an online augmentation tool <a href="./src/ImageMaskAugmentor.py">ImageMaskAugmentor.py</a> to increase the number of the dataset 
+during the training process. 
 <br>
 
 <br>
