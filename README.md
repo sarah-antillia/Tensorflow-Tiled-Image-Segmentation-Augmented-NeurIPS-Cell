@@ -115,7 +115,7 @@ Zenodo. https://doi.org/10.5281/zenodo.10719375<br>
 <a href="https://drive.google.com/file/d/14ibAlNFDuyFP9e39KnJUrQediQPvuNvs/view?usp=sharing">
 Tiled-Cell-ImageMask-Dataset-BMP-Bare-Neuclei</a>,
 <br>
-Please expand the downloaded ImageMaskDataset and put it under <b>./dataset</b> folder to be
+expand the downloaded ImageMaskDataset and put it under <b>./dataset</b> folder to be
 <pre>
 ./dataset
 └─Tiled-Cell
