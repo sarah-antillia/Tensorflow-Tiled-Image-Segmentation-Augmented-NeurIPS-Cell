@@ -300,7 +300,7 @@ num_layers     = 8
 </pre>
 
 <b>Learning rate</b><br>
-Defined a smaller learning rate.  
+Defined a small learning rate.  
 <pre>
 [model]
 learning_rate   = 0.00007
@@ -322,7 +322,7 @@ loss           = "bce_dice_loss"
 metrics        = ["dice_coef"]
 </pre>
 <b>Learning rate reducer callback</b><br>
-Enabled learing_rate_reducer callback, and smaller reduce_patience than the first experiment
+Enabled learing_rate_reducer callback, and a small reducer_patience.
 <pre> 
 [train]
 learning_rate_reducer = True
