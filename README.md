@@ -18,7 +18,7 @@ For simplicity, we generated the tiled dataset from Brightfield Bare Neuclei bmp
 Please see also <a href="https://github.com/sarah-antillia/Tiled-ImageMask-Dataset-BreCaHAD">Tiled-ImageMask-Dataset-BreCaHAD</a>
 <br>
 -->
-<br> 
+
 In this experiment, we employed the following strategy:
 <b>
 <br>
