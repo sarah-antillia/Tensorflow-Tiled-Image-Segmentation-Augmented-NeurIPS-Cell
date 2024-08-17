@@ -4,11 +4,11 @@ This is the first experiment of Tiled Image Segmentation for <a href="https://ze
  based on
 the <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>, and
 <a href="https://drive.google.com/file/d/14ibAlNFDuyFP9e39KnJUrQediQPvuNvs/view?usp=sharing">
-Tiled-Cell-ImageMask-Dataset-BMP-Bare-Neuclei</a>, which was derived by us from zenodo.org website: 
+Tiled-Cell-ImageMask-Dataset-BMP-Bare-Nuclei</a>, which was derived by us from zenodo.org website: 
 <a href="https://zenodo.org/records/10719375">NeurIPS 2022 CellSegmentation</a>
 <br>
 <br>
-For simplicity, we generated the tiled dataset from Brightfield Bare Neuclei bmp image files and corresponding label files in  
+For simplicity, we generated the tiled dataset from Brightfield Bare Nuclei bmp image files and corresponding label files in  
 <a href="https://zenodo.org/records/10719375/files/Training-labeled.zip?download=1">
 <b>Training-labeled</b></a> dataset in <a href="https://zenodo.org/records/10719375">NeurIPS 2022 CellSegmentation</a>
 
@@ -113,7 +113,7 @@ Zenodo. https://doi.org/10.5281/zenodo.10719375<br>
  If you would like to train this Tiled-Cell Segmentation model by yourself,
  please download the dataset from the google drive 
 <a href="https://drive.google.com/file/d/14ibAlNFDuyFP9e39KnJUrQediQPvuNvs/view?usp=sharing">
-Tiled-Cell-ImageMask-Dataset-BMP-Bare-Neuclei</a>,
+Tiled-Cell-ImageMask-Dataset-BMP-Bare-Nuclei</a>,
 <br>
 expand the downloaded ImageMaskDataset and put it under <b>./dataset</b> folder to be
 <pre>
@@ -131,7 +131,7 @@ expand the downloaded ImageMaskDataset and put it under <b>./dataset</b> folder 
 </pre>
 
 <b>Tiled-Cell Dataset Statistics</b><br>
-<img src ="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Cell/Tiled-Cell-ImageMask-Dataset-BMP-Bare-Neuclei_Statistics.png" width="512" height="auto"><br>
+<img src ="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Cell/Tiled-Cell-ImageMask-Dataset-BMP-Bare-Nuclei_Statistics.png" width="512" height="auto"><br>
 <br>
 As shown above, since the number of images of train and valid datasets is not so large to use for a training set for our segmentation model, 
 we used an online augmentation tool <a href="./src/ImageMaskAugmentor.py">ImageMaskAugmentor.py</a> to increase the number of the dataset 
