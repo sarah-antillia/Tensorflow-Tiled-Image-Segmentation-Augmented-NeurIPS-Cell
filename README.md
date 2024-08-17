@@ -4,7 +4,7 @@ This is the first experiment of Tiled Image Segmentation for <a href="https://ze
  based on
 the <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>, and
 <a href="https://drive.google.com/file/d/14ibAlNFDuyFP9e39KnJUrQediQPvuNvs/view?usp=sharing">
-Tiled-Cell-ImageMask-Dataset-BMP-Bare-Nuclei</a>, which was derived by us from zenodo.org website: 
+Tiled-Cell-ImageMask-Dataset-BMP-Bare-Nuclei</a>, which was derived by us from the dataset of zenodo.org website: 
 <a href="https://zenodo.org/records/10719375">NeurIPS 2022 CellSegmentation</a>
 <br>
 <br>
@@ -22,10 +22,10 @@ Please see also <a href="https://github.com/sarah-antillia/Tiled-ImageMask-Datas
 In this experiment, we employed the following strategy:
 <b>
 <br>
-1. We trained and validated a TensorFlow UNet model using the Tiled-Cell-ImageMask-Dataset for Bare-Neuclei, 
+1. We trained and validated a TensorFlow UNet model using the Tiled-Cell-ImageMask-Dataset for Bare-Nuclei, 
 which was tiledly-splitted to 512x512
  and reduced to 512x512 image and mask dataset.<br>
-2. We applied the Tiled-Image Segmentation inference method to predict the neuclei regions for the mini_test images 
+2. We applied the Tiled-Image Segmentation inference method to predict the nuclei regions for the mini_test images 
 with a resolution of 2K pixels. 
 <br><br>
 </b>  
@@ -392,7 +392,7 @@ Evaluation console output:<br>
 
 <a href="./projects/TensorflowSlightlyFlexibleUNet/Tiled-Cell/evaluation.csv">evaluation.csv</a><br>
 
-The loss (bce_dice_loss) score was not so low, and dice_coef not so high.
+The loss (bce_dice_loss) score for Tiled-Cell/test dataset was not so low, and dice_coef not so high.
 <pre>
 loss,0.1809
 dice_coef,0.8027
