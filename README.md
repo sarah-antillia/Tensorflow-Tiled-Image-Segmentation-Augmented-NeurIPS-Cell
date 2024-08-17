@@ -35,7 +35,7 @@ Please note that Tiled-Cell-ImageMask contains two types of images and masks:<br
 Namely, this is a mixed set of Tiled and Non-Tiled ImageMask Datasets.
 
 <hr>
-<b>Actual Image Segmentation for Images of 2560x1920 pixels</b><br>
+<b>Actual Tiled Image Segmentation for Images of 2560x1920 pixels</b><br>
 As shown below, the tiled inferred masks look somewhat similar to the ground truth masks.
 <table>
 <tr>
